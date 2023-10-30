@@ -1,4 +1,3 @@
-*
 {
     box-sizing: border-box ;
     text-decoration: none;
@@ -81,7 +80,7 @@ a:hover
 .context
 {
     position: absolute;
-    top: 80px;
+    top: 73px;
     right: 145px;
     font-size: 80px;
     font-family: verdana;
@@ -100,7 +99,7 @@ a:hover
     color: white;
     top: 215px;
     border: 3px solid #88674E;
-    margin: 10px 20px auto 1085px;
+    margin: 10px 20px auto 1125px;
     width: 40%;
 }
 
@@ -139,14 +138,6 @@ h4
     font-family: verdana;
     text-align: center;
 }
-
-h5
-{
-    color: white;
-    font-size: 30px;
-    margin: 110px auto 0px;
-
-}  
 
 h6
 {
@@ -211,7 +202,7 @@ hr
 {
     width: 45%;
     border: 3px solid white;
-    margin: 15px 1050px;
+    margin: 15px 1075px;
 }
 
 .Hr-Info
@@ -236,11 +227,12 @@ hr
 
 header
 {   
+    position: relative;
     font-family: Arial, Helvetica, sans-serif;
     float: right;
-    margin: 40px 490px 5px;
+    margin: 50px 440px 0;
     color: white;
-    font-size: 50px;
+    font-size: 80px;
 }
 
 .wrapper-About
@@ -291,15 +283,16 @@ header
 .H-Skills
 {
     position: absolute;
-    margin-top: 30px;
-    right: 355px;
+    margin-top: 50px;
+    right: 375px;
+    font-size: 60px;
 }
 
 .Hr-Skills
 {
-    width: 10%;
+    width: 15%;
     border: 3px solid white;
-    margin: 95px 1410px;
+    margin: 125px 1365px;
 }
 
 .Skills-Wrapper
@@ -326,7 +319,7 @@ header
 {   
     width: 230px;
     padding: 30px;
-    margin: 140px 200px 0 -100px;
+    margin: 160px 200px 0 -100px;
     border-radius: 5px;
     box-shadow:10px 15px 20px rgba(141, 108, 46, 0.5);
     height: 165px;
@@ -343,7 +336,7 @@ header
 {
     width: 40%;
     border: 3px solid white;
-    margin: 25px 1100px;
+    margin: 160px 1115px;
 }
 
 .Services-Wrapper
@@ -371,7 +364,7 @@ header
     float: right;
     width: 500px;
     padding: 30px;
-    margin: -40px 90px 0 -10px;
+    margin: 80px 90px 0 -10px;
     border-radius: 5px;
     box-shadow:10px 15px 20px rgba(141, 108, 46, 0.5);
     height: 500px;
