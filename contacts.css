@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-link{
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 100000;
+    width: 100%;
+}
+
+
+.header h2{
+font-size: 2rem;
+font-weight: bold;
+color: #fff;
+letter-spacing: 3px;
+}
+
+.header span{
+    color: rgb(97, 210, 230);
+}
+
+
+.nav-link ul{
+display: flex;
+gap: 3rem;
+align-items: center;
+}
+
+li{
+list-style: none;
+text-transform: uppercase;
+font-weight: 500;
+font-size: 18px;
+letter-spacing: 3px;
+transition: 0.6s;
+}
+
+li a{
+text-decoration: none;
+color: rgb(97, 210, 230);
+border-radius: 1rem;
+padding: 5px 1rem;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+font-weight: 500;
+}
+
+
+li a:hover{
+background-color: rgb(97, 210, 230);
+color: #fff;
+
+}
+
+.banner{
+height: 100%;
+width: 100%;
+position: absolute;
+background-size: cover;
+top: 0;
+margin-bottom: 0;
+z-index: -1;
+background-attachment: fixed;
+}
+
+.info{
+    color: rgb(97, 210, 230);
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.section h4{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -42.2rem;
+    left: .3rem;
+    width: 5rem;
+}
+
+
+.contacts a {
+    font-size: 36px;
+    padding-right: 10px;
+    padding: 3.57rem;
+}
+
+.contacts a:hover{
+    scale: 1.2;
+}
+
+
+.fa-facebook{
+    color: rgb(97, 210, 230);
+}
+
+.fa-github{
+    color: rgb(97, 210, 230);
+}
+
+.fa-envelope{
+    color: rgb(97, 210, 230);
+}
+
+.fa-instagram{
+    color: rgb(97, 210, 230);
+}
+
+.persue{
+    top: -3.2rem;
+    position: relative;
+}
+
+
+
+.persue h3{
+    color: aqua;
+    font-size: 1.2rem;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    bottom: -8rem;
+    position: relative;
+}
+
+.persue p{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    font-size: 1.1rem;
+    position: relative;
+    bottom: -4.5rem;
+}
+
+.table{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10rem;
+}
+
+.container{
+    border: 2.5px solid #fff;
+    height: 35rem;
+    width: 65rem;
+    padding: 3rem 3rem;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 15px aqua;
+    background-color: rgb(4, 113, 133);
+    position: relative;
+    right: -2rem;
+}
+
+.container .info-2{
+    color: #fff;
+    font-size: 4.5rem;
+    position: relative;
+    top: 4rem;
+    right: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.Email
+{
+    color: white;
+    font-size: 20px;
+    font-family: arial;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    top: 4rem;
+    position: relative;
+}
+
+.Contact-No
+{
+    color: white;
+    font-size: 20px;
+    font-family: arial;
+    padding-bottom: 10px;
+    top: 4rem;
+    position: relative;
+}
+
+.Address
+{
+    color: white;
+    font-size: 20px;
+    font-family: arial;
+    padding-bottom: 10px;
+    top: 4rem;
+    position: relative;
+}
+
+.Container-Message
+{
+    position: absolute;
+    left: 450px;
+    top: 5px;
+    width: 800px;
+    height: 400px;
+}
+
+input
+{
+    display: flex;
+    margin: 30px;
+    width: 75%;
+    height: 100px;
+    border-radius: 20px;
+    border: none;
+}
+
+.Message
+{
+    width: 75%;
+    height: 250px;
+    
+}
+
+button
+{
+    position: relative;;
+    width: 15%;
+    height: 50px;
+    left: 270px;
+    border-radius: 20px;
+    border: none;
+}
+
+button:hover
+{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.Message::placeholder
+{
+    text-align: center;
+    font-size: 40px;
+}
+
+::placeholder
+{
+    margin-left: 20px;
+    font-family: verdana;
+    font-size: 16px;
+    color: black;
+    padding-left: 20px;
+}
